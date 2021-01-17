@@ -1,0 +1,12 @@
+[2021-01-16 12:13:51 am]:
+CustomDatabaseErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE Officer_licence = 'CCCCCCCCCCCCCCCC'' at line 4 in E:\xampp\htdocs\police-station-upwork\src\helpers\sql_helpers.php:24
+Stack trace:
+#0 E:\xampp\htdocs\police-station-upwork\src\profile.php(51): update_sql_data(Object(mysqli), 'UPDATE officers...')
+#1 {main}
+
+[2021-01-16 12:16:31 am]:
+CustomDatabaseErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE Officer_licence = 'CCCCCCCCCCCCCCCC'' at line 4 in E:\xampp\htdocs\police-station-upwork\src\helpers\sql_helpers.php:24
+Stack trace:
+#0 E:\xampp\htdocs\police-station-upwork\src\profile.php(53): update_sql_data(Object(mysqli), 'UPDATE officers...')
+#1 {main}
+
